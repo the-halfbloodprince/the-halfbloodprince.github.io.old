@@ -100,7 +100,6 @@ a:visited {
     cursor: default;
     transform-origin: 10% 50%;
     transition: 0.5s ease;
-    overflow: hidden;
     color: #dddddd;
 }
 
@@ -142,7 +141,7 @@ li::after {
     content: '';
     display: inline-block;
     position: relative;
-    bottom: -8px;
+    bottom: 10px;
     transform: scaleX(0) translateY(1px);
     border-radius: 3px;
     width: 100%;
