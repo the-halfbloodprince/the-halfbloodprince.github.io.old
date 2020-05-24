@@ -146,7 +146,7 @@ li::after {
     content: '';
     display: inline-block;
     position: relative;
-    bottom: 10px;
+    bottom: -3px;
     transform: scaleX(0) translateY(1px);
     border-radius: 3px;
     width: 100%;
