@@ -238,6 +238,10 @@ li:nth-child(1) {
     animation: grow 1s 0.5s forwards ease;
 }
 
+#home .h1::selection{
+     background-color:#8503ff;
+    color:#dddddd;
+}
 #home section {
     text-align: center;
     font-size: 1.4em;
@@ -249,6 +253,10 @@ li:nth-child(1) {
     animation: growr 2s forwards cubic-bezier(.29, .64, 0, .02);
 }
 
+#home section::selection{
+    background-color:#8503ff;
+    color:#dddddd;
+}
 .sec {
     height: 110vh;
 }
