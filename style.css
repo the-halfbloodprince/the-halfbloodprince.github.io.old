@@ -241,8 +241,8 @@ li:nth-child(1) {
 }
 
 #home .h1::selection {
-    background-color: #000000;
-    color: #8503ff;
+    background-color: #8503ff;
+    color: #dddddd;
 }
 
 #home section {
