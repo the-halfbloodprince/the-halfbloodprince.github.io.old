@@ -217,11 +217,11 @@ li:nth-child(1) {
     font-family: 'Indie Flower';
     line-height: 1.1em;
     font-weight: 600;
-    font-size: 1.7em;
+    font-size: 1.9em;
     margin-top: 5%;
 }
 
-.h1::after {
+#home .h1::after {
     content: '';
     position: relative;
     bottom: 2px;
@@ -247,7 +247,7 @@ li:nth-child(1) {
 
 #home section {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding: 1.5em 2em 0 2em;
     font-family: Satisfy;
     opacity: 0;
@@ -276,7 +276,7 @@ li:nth-child(1) {
     font-size: 4em;
     font-family: 'Indie Flower';
     width: 100%;
-    top: 20%;
+    top: 150px;
     text-align: right;
     right: 2rem;
     line-height: 1.2em;
@@ -292,6 +292,30 @@ li:nth-child(1) {
     /* background-attachment: fixed; */
     background-position: -5%;
     background-size: cover;
+}
+
+#acads .h1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color:#000000;
+    font-size: 4em;
+    font-family: Play;
+    text-align: center;
+    text-shadow: 2px 2px #C03F2B,-2px -2px #C03F2B;
+    top:150px;
+}
+
+#acads .h1::after{
+    content: '';
+    width: 40%;
+    height:4px;
+    background-color: #C03F2B;
+    transform-origin: left;
+    display: block;
+    text-align: center;
 }
 
 #ach {
